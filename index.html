@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Burger</title>
+  <title>Burger Hut</title>
   <link rel="shortcut icon" type="image" href="./images/logo.png">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   <!-- bootstrap links -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <!-- bootstrap links -->
   <!-- fonts links -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,13 +19,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
   <!-- fonts links -->
 </head>
+
 <body>
   <!-- home section -->
   <div class="home-section">
     <nav class="navbar navbar-expand-lg" id="navbar">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#" id="logo"><img src="./images/logo.png" alt="" width="30px">BUR<span>GER</span></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#" id="logo"><img src="./images/logo.png" alt="" width="30px">BUR<span>GER</span>
+          HUT</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span><i class="fa-solid fa-bars"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -32,32 +37,33 @@
               <a class="nav-link active" aria-current="page" href="#" id="first-child">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Burger</a>
+              <a class="nav-link" href="#burger">Burger</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
                 Other
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #ffc800;">
-                <li><a class="dropdown-item" href="#">Pizza</a></li>
-                <li><a class="dropdown-item" href="#">Fries</a></li>
-                <li><a class="dropdown-item" href="#">Fried Chicken</a></li>
+                <li><a class="dropdown-item" href="#topcards">Pizza</a></li>
+                <li><a class="dropdown-item" href="#topcards">Fries</a></li>
+                <li><a class="dropdown-item" href="#topcards">Fried Chicken</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="#about">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="#contact">Contact Us</a>
             </li>
           </ul>
-          
-          <form class="d-flex">
+
+          <!-- <form class="d-flex">
             <div class="icons">
               <i class="fa-regular fa-user"></i>
               <i class="fa-solid fa-cart-shopping"></i>
             </div>
-          </form>
+          </form> -->
         </div>
       </div>
     </nav>
@@ -69,8 +75,9 @@
         <h1>Super Delicious
           <br> <span>Burger</span>
         </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, iste!</p>
-        <div id="btn"><button>Order Now</button> <span>$100.50</span></div>
+        <p>Sweet burger available in spicy too.Made with ground meat patty,cheese and lettuce toppings placed between
+          two halves of a bun.</p>
+        <!-- <div id="btn"><button>Order Now</button></div> -->
       </div>
       <div class="img">
         <img src="./images/burger.png" alt="">
@@ -82,11 +89,9 @@
 
 
 
-
-
   <!-- top icons -->
   <div class="container" id="top-icons">
-    <h1>OFFERS</h1>
+    <h1>OUR OFFERS</h1>
     <div class="row">
       <div class="col-md-3 py-3 py-md-0">
         <i><img src="./images/offer1.png" alt=""></i>
@@ -109,11 +114,6 @@
   <!-- top icons -->
 
 
-
-
-
-
-
   <!-- cards -->
   <div class="container" id="cards">
     <div class="row">
@@ -122,8 +122,8 @@
           <img src="./images/cards1.png" alt="">
           <div class="card-img-overlay">
             <h3>HamBurger</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <button id="rn">Order Now</button>
+            <p>Our iconic comfort hamburgers that have won over hearts all over.</p>
+            <!-- <button id="rn">Order Now</button> -->
           </div>
         </div>
       </div>
@@ -132,8 +132,8 @@
           <img src="./images/cards2.png" alt="">
           <div class="card-img-overlay">
             <h3>Pizza</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <button id="rn">Order Now</button>
+            <p>Serving hot-oven fresh pizza using only the freshest ingredients.</p>
+            <!-- <button id="rn">Order Now</button> -->
           </div>
         </div>
       </div>
@@ -145,8 +145,8 @@
           <img src="./images/cards3.png" alt="">
           <div class="card-img-overlay">
             <h3>Italian pizza</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <button id="rn">Order Now</button>
+            <p>Preserving the origin of pizza right down from Italia.</p>
+            <!-- <button id="rn">Order Now</button> -->
           </div>
         </div>
       </div>
@@ -155,8 +155,8 @@
           <img src="./images/cards4.png" alt="">
           <div class="card-img-overlay">
             <h3>Fried Chicken</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <button id="rn">Order Now</button>
+            <p>The best deep fried crunchy chicken there is.</p>
+            <!-- <button id="rn">Order Now</button> -->
           </div>
         </div>
       </div>
@@ -165,8 +165,8 @@
           <img src="./images/cards5.png" alt="">
           <div class="card-img-overlay">
             <h3>Chesse Burger</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <button id="rn">Order Now</button>
+            <p>All sized-burgers drooping with cheese.</p>
+            <!-- <button id="rn">Order Now</button> -->
           </div>
         </div>
       </div>
@@ -176,21 +176,17 @@
 
 
 
-
-
-
-
   <!-- burger -->
   <div class="container" id="burger">
-    <h1>Delicious Burger</h1>
+    <h1>Delicious Burgers</h1>
     <div class="row" style="margin-top: 30px;">
       <div class="col-md-3 py-3 py-md-0">
         <div class="card">
           <img src="./images/b1.png" alt="">
           <div class="card-body">
-            <h3>Tasty Burger</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <h5>$10.50 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
+            <h3>Beef Burger</h3>
+            <p>Onion medium-sized cheese beef burger.</p>
+            <h5>Ksh250.00 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
           </div>
         </div>
       </div>
@@ -198,9 +194,9 @@
         <div class="card">
           <img src="./images/b2.png" alt="">
           <div class="card-body">
-            <h3>Onion burger</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <h5>$5.60 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
+            <h3>Double burger</h3>
+            <p>Double chicken burger with cheese.</p>
+            <h5>Ksh400.00 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
           </div>
         </div>
       </div>
@@ -208,9 +204,9 @@
         <div class="card">
           <img src="./images/b3.png" alt="">
           <div class="card-body">
-            <h3>Classic Burger</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <h5>$3.20 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
+            <h3>Spicy Chicken Burger</h3>
+            <p>Chicken burger with spice.</p>
+            <h5>Ksh300 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
           </div>
         </div>
       </div>
@@ -218,9 +214,9 @@
         <div class="card">
           <img src="./images/b4.png" alt="">
           <div class="card-body">
-            <h3>Best Burger</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <h5>$1.50 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
+            <h3>Classic Burger</h3>
+            <p>Burger with grilled beef and cheese.</p>
+            <h5>Ksh200 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
           </div>
         </div>
       </div>
@@ -231,9 +227,9 @@
         <div class="card">
           <img src="./images/b5.png" alt="">
           <div class="card-body">
-            <h3>Chesse Burger</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <h5>$6.50 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
+            <h3>Saucy Beef Burger</h3>
+            <p>Beef burger with extra cheese and sauce.</p>
+            <h5>Ksh350 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
           </div>
         </div>
       </div>
@@ -241,9 +237,9 @@
         <div class="card">
           <img src="./images/b6.png" alt="">
           <div class="card-body">
-            <h3>Tasty Burger</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <h5>$2.30 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
+            <h3>Lamb Burger</h3>
+            <p>Ground lamb meat burger and feta cheese.</p>
+            <h5>Ksh380 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
           </div>
         </div>
       </div>
@@ -252,8 +248,8 @@
           <img src="./images/b7.png" alt="">
           <div class="card-body">
             <h3>Chesse Burger</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <h5>$1.20 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
+            <p>Beef patty burger with cheese.</p>
+            <h5>Ksh350 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
           </div>
         </div>
       </div>
@@ -261,9 +257,9 @@
         <div class="card">
           <img src="./images/b8.png" alt="">
           <div class="card-body">
-            <h3>Delicious B</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <h5>$10.50 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
+            <h3>Kubie Burger</h3>
+            <p>Burger with ukranian garlic sausage.</p>
+            <h5>Ksh250 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
           </div>
         </div>
       </div>
@@ -273,18 +269,13 @@
 
 
 
-
-
   <!-- banner -->
   <div class="banner">
     <h3>Other Product</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, voluptatibus?</p>
-    <button id="btnorder">Order Now</button>
+    <p>Browse more on our other various fast foods.</p>
+    <button id="btnorder">Preview</button>
   </div>
   <!-- banner -->
-
-
-
 
 
 
@@ -292,16 +283,21 @@
   <div class="container" id="topcards">
     <div class="row">
       <div class="col-md-4 py-3 py-md-0">
+          <h2>Burgers</h2>
         <div class="card">
           <img src="./images/topcard1.png" alt="">
         </div>
       </div>
+      
       <div class="col-md-4 py-3 py-md-0">
+          <h2>Pizza</h2>
         <div class="card">
           <img src="./images/topcard2.png" alt="">
         </div>
       </div>
+
       <div class="col-md-4 py-3 py-md-0">
+          <h2>Chicken</h2>
         <div class="card">
           <img src="./images/topcard3.png" alt="">
         </div>
@@ -309,9 +305,6 @@
     </div>
   </div>
   <!-- top cards -->
-
-
-
 
 
 
@@ -323,8 +316,8 @@
           <img src="./images/p1.png" alt="">
           <div class="card-body">
             <h3>Italian Pizza</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <h5>$6.50 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
+            <p>Browse more on our Italian pizzas.</p>
+            <h5>Ksh650 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
           </div>
         </div>
       </div>
@@ -333,8 +326,8 @@
           <img src="./images/p2.png" alt="">
           <div class="card-body">
             <h3>Fried Chicken</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <h5>$20.30 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
+            <p>Get more of our crunchy chicken.</p>
+            <h5>Ksh480 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
           </div>
         </div>
       </div>
@@ -342,9 +335,9 @@
         <div class="card">
           <img src="./images/p3.png" alt="">
           <div class="card-body">
-            <h3>Tasty Fries</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <h5>$1.20 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
+            <h3>Fries</h3>
+            <p>Some of the best fries you will ever have.</p>
+            <h5>Ksh150 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
           </div>
         </div>
       </div>
@@ -353,8 +346,8 @@
           <img src="./images/p4.png" alt="">
           <div class="card-body">
             <h3>Pizza Slice</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <h5>$3.20 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
+            <p>Various pizza slices out of the best pizzas.</p>
+            <h5>Ksh100 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
           </div>
         </div>
       </div>
@@ -365,30 +358,38 @@
 
 
 
-
-
-
-
   <!-- about -->
   <div class="container" id="about">
     <h1>ABOUT</h1>
     <div class="row">
-     <div class="col-md-6 py-3 py-md-0">
-      <div class="card">
-        <img src="./images/about.png" alt="">
+      <div class="col-md-6 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/about.png" alt="">
+        </div>
       </div>
-     </div>
-     <div class="col-md-6 py-3 py-md-0">
-      <h2>Delicious Burger</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam accusamus exercitationem ut. Non assumenda nihil tempore minima consequatur corrupti numquam quia dolorum laborum praesentium vero commodi ex velit expedita, omnis adipisci? Exercitationem consequatur ducimus praesentium dolores rerum voluptatibus, nam illo quas modi deleniti iusto laboriosam adipisci enim excepturi, cupiditate quidem neque tempora sunt animi natus aliquid. Fugiat eligendi molestiae magnam vero dicta est praesentium unde ducimus eveniet commodi alias, pariatur quis quod saepe sed accusamus porro nemo doloribus cumque quos quo nihil! Numquam explicabo odit accusamus laudantium molestiae. Ipsum culpa dolor sequi dolore doloribus aperiam, earum maxime alias voluptates magni.</p>
-      <div id="readmorebtn"><button>Read More...</button></div>
-     </div>
+      <div class="col-md-6 py-3 py-md-0">
+        <h2>Delicious Burger</h2>
+        <p>Here at Burger Hut is one of a kind spot for people looking for the best burgers of their locale.
+        We offer a massive variety of types of burgers, including the best chicken burger, beef burgers, vegetarian
+        burger,sides and desserts! We pride ourselves in offering to the community one of the greatest dine-in and takeaway burgers near me open now.
+
+        <hr>
+        Our style is funky, unique, with a blend of traditional and modern burger combinations with shakes and desserts to
+        finish you off! We are the first in the world to offer a range of Gourmet burgers inspired by cuisines from the four corners of the continent
+        of Africa. What our guests come for is our exciting menu with totally unique flavour combination using premium, fresh,
+        organic, locally sourced ingredients. What they stay for is the personality driven, energetic and authentic service.
+        
+        <hr>
+        As Restauranteurs our mission is to create a strong brand that celebrates African music, film, dance and culture through
+        not only quality food but an immersive experience and home away from home for all who come to our restaurants.
+        Our future vision is to make the brand a national export of excellence by design, shattering stereotypes and
+        connotations that people have about the continent. Our pledge is to showcase the Africa of now that deserves a seat at
+        the table.</p>
+        <!-- <div id="readmorebtn"><button>Read More...</button></div> -->
+      </div>
     </div>
   </div>
   <!-- about -->
-
-
-
 
 
 
@@ -396,30 +397,29 @@
   <div class="container">
     <h2 id="h2">CONTACT</h2>
   </div>
-    <div class="container" id="contact">
+  <div class="container" id="contact">
     <div class="row">
       <div class="col-md-6 py-3 py-md-0">
-         <h3>CONTACT</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolorem sit excepturi, nemo reiciendis animi?</p>
-         <input type="text" placeholder="Name"><br>
-         <input type="email" placeholder="Email"><br>
-         <input type="number" placeholder="Phone"><br>
-         <button id="btnmessage">Send</button>
+        <h3>INFO</h3>
+        <p>We can’t wait to see you at one of our locations, but if you have any questions for now we would love to hear from you.
+        Fill the below form for us to acquire your credentials and know who were talking to.</p>
+        <!-- <input type="text" placeholder="Name"><br>
+        <input type="email" placeholder="Email"><br>
+        <input type="number" placeholder="Phone"><br>
+        <button id="btnmessage">Send</button> -->
       </div>
       <div class="col-md-6 py-3 py-md-0">
-        <h3>INFO</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, odio assumenda nostrum commodi at corporis!</p>
-        <i class="fas fa-phone"> <span>+000000000000000</span></i><br>
-        <i class="fa-solid fa-envelope"> <span>example@gmail.com</span></i><br>
-        <i class="fa-solid fa-location-dot"> <span>Pakistan sindh Karachi</span></i><br>
+        <h3>CONTACT</h3>
+        <p>Send us an email or give us a call to say hey!
+        </p>
+        <i class="fas fa-phone"> <span>+254 (759) 5154 50</span></i><br>
+        <a href="mailto: issanyale446@gmail.com"><i class="fa-solid fa-envelope"> <span>issanyale446@gmail.com</span></i><br></a>
+        <i class="fa-solid fa-location-dot"> <span>Mombasa,Nairobi & Thika</span></i><br>
       </div>
     </div>
   </div>
 
   <!-- contact -->
-
-
-
 
 
 
@@ -431,74 +431,76 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 footer-contact">
             <a class="navbar-brand" href="#" id="logo2"><img src="./images/logo.png" alt="" width="30px">Burger</a>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, libero.</p><br>
+            <p>To experience our delightful taste of our different fast foods, order in and get it delievered at the comfort of your home.</p><br>
             <p>
-              Karachi <br><br>
-              Sindh <br><br>
-              Pakistan <br><br>
+              Mombasa <br><br>
+              Nairobi <br><br>
+              Thika <br><br>
             </p>
-            <strong><i class="fa-solid fa-phone"></i> Phone: <strong>+0000000000000000</strong></strong><br>
-            <strong><i class="fa-solid fa-envelope"></i> Email: <strong>example@gmail.com</strong></strong>
+            <strong><i class="fa-solid fa-phone"></i> Phone: <strong>+254 (759) 5154 50</strong></strong><br>
+            <a href="mailto: issanyale446@gmail.com"><strong><i class="fa-solid fa-envelope"></i> Email: <strong>issanyale446@@gmail.com</strong></strong></a>
           </div>
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Quick Info</h4>
             <ul>
               <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Privacy policay</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#cards">Services</a></li>
+              <!-- <li><a href="#">Privacy policay</a></li> -->
             </ul>
           </div>
-          
+
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, aperiam.</p>
+            <p>We offer various services as listed below.</p>
             <ul>
-              <li><a href="#">Pizza</a></li>
-              <li><a href="#">Fried chicken</a></li>
-              <li><a href="#">Fries</a></li>
+              <li><a>Pizza Services</a></li>
+              <li><a>Fried chicken Services</a></li>
+              <li><a>Fries Services</a></li>
+              <li><a>Burgers Services</a></li>
+
             </ul>
           </div>
-          
+
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Socail Links</h4>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, minus.</p>
+            <p>Explore more about us at our different social platforms.</p>
             <div class="socail-links mt-3">
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
-              <a href="#"><i class="fa-brands fa-google-plus"></i></a>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <!-- <a href="#"><i class="fa-brands fa-twitter"></i></a> -->
+              <a target="_blank" href="https://www.facebook.com/nick.michealson.98"><i class="fa-brands fa-facebook"></i></a>
+              <!-- <a href="#"><i class="fa-brands fa-google-plus"></i></a> -->
+              <a target="_blank" href="https://www.instagram.com/car962edits/"><i class="fa-brands fa-instagram"></i></a>
+              <a target="_blank" href="https://www.linkedin.com/in/issa-changawa-367492263/"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
           </div>
 
         </div>
       </div>
     </div>
-  
-  <hr>
-  <div class="container py-4">
-    <div class="copyright">
-      &copy; Copyright <strong>Burger</strong>.All Rights reserved
+
+    <hr>
+    <div class="container py-4">
+      <div class="copyright">
+        &copy; Copyright <strong>Burger Hut</strong>.All Rights reserved
+      </div>
+      <div class="credits">
+        Designed By: <a target="_blank" href="https://my-portfolio-omega-nine-17.vercel.app/">Issa Changawa</a>
+      </div>
     </div>
-    <div class="credits">
-      Designed By <a href="#">SA coding</a>
-    </div>
-  </div>
-</footer>
+  </footer>
 
   <!-- footer -->
-
-
-
 
 
 
   <a href="#" class="arrow"><i class="fa-solid fa-arrow-up"></i></a>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>
